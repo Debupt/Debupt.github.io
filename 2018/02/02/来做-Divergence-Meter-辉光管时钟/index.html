@@ -19,7 +19,7 @@
 <meta property="og:image" content="debupt.github.io/2018/02/images/Divergence%20Meter.jpg">
 <meta property="og:image" content="debupt.github.io/2018/02/images/Hardware%20Block.png">
 <meta property="og:image" content="debupt.github.io/2018/02/images/Nixietube.png">
-<meta property="og:image" content="debupt.github.io/2018/02/images/HV.png">
+<meta property="og:image" content="debupt.github.io/2018/02/images/hv.png">
 <meta property="og:image" content="debupt.github.io/2018/02/images/ws2812.gif">
 <meta property="og:image" content="debupt.github.io/2018/02/images/powerDetec.png">
 <meta property="og:image" content="debupt.github.io/2018/02/images/board+.png">
@@ -34,7 +34,7 @@
 <meta property="og:image" content="debupt.github.io/2018/02/images/Down.JPG">
 <meta property="og:image" content="debupt.github.io/2018/02/images/TIME.gif">
 <meta property="og:image" content="debupt.github.io/2018/02/images/DATE.gif">
-<meta property="og:updated_time" content="2018-02-01T21:57:29.452Z">
+<meta property="og:updated_time" content="2018-02-02T01:30:41.382Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="来做 Divergence Meter (辉光管时钟)">
 <meta name="twitter:description" content="—— すべてはシュタインズ・ゲートの選択である">
@@ -234,7 +234,7 @@
 <p>a. 辉光管采用<code>IN-14</code>，由前苏联制造，直径 18.5mm-19mm，管身高度 54.5mm，内部阴极数字高度 18mm，共 13 脚，其中 1 个阳极，12 个阴极。如图：</p>
 <p><img src="../../images/Nixietube.png" width="1000"></p>
 <p>b. 升压模块采用 <a href="http://pdf1.alldatasheet.com/datasheet-pdf/view/12072/ONSEMI/MC34063.html" target="_blank" rel="noopener">MC34063A</a> 实现，其中震荡电容选择不当，会产生明显的 <strong>啸叫</strong>（<em>稳压电源电路输出的开关电流的频率接近或落入音频范围，或周期性方波群的周期频率接近或落入音频范围。周期性电流经过电感线圈，产生交变磁场，该电感线圈在交变磁场作用下产生振动而发出声音</em>），取 <strong>1nF</strong> 为宜。升压测试如下：</p>
-<p><img src="../../images/HV.png" width="1000"></p>
+<p><img src="../../images/hv.png" width="1000"></p>
 <p>c. 由于辉光管特殊的结构，需要同时控制多个管脚才能实现数码的切换显示，有两种方案可供选择：<br></p>
 <ul>
 <li><a href="http://pdf1.alldatasheet.com/datasheet-pdf/view/138719/JIANGSU/A42.html" target="_blank" rel="noopener">A42</a>,<a href="http://pdf1.alldatasheet.com/datasheet-pdf/view/12198/ONSEMI/74HC595.html" target="_blank" rel="noopener">74HC595</a></li>
