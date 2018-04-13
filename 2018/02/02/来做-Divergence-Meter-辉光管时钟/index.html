@@ -34,7 +34,7 @@
 <meta property="og:image" content="https://debupt.github.io/assets/NixieClock/Down.JPG">
 <meta property="og:image" content="https://debupt.github.io/assets/NixieClock/TIME.gif">
 <meta property="og:image" content="https://debupt.github.io/assets/NixieClock/DATE.gif">
-<meta property="og:updated_time" content="2018-04-13T09:56:34.872Z">
+<meta property="og:updated_time" content="2018-04-13T11:52:27.732Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="来做 Divergence Meter (辉光管时钟)">
 <meta name="twitter:description" content="—— すべてはシュタインズ・ゲートの選択である">
@@ -182,7 +182,6 @@
       来做 Divergence Meter (辉光管时钟)
     </h1>
   
-  <i class="fab fa-readme"></i>
   <span id="busuanzi_container_page_pv">
    阅读数:<span id="busuanzi_value_page_pv"></span>
   </span></a>
@@ -194,6 +193,33 @@
         
       </header>
     
+    <!-- 目录内容 -->
+    
+      <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+          <span class="btn-bg"></span>
+          <span class="btn-text">文章导航</span>
+          </p>
+    <div id="toc-article" class="toc-article">
+      <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+    <strong class="toc-title">文章目录</strong>
+           <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#——-すべてはシュタインズ・ゲートの選択である"><span class="toc-number">1.</span> <span class="toc-text">—— すべてはシュタインズ・ゲートの選択である</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-前言"><span class="toc-number">2.</span> <span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-设计目标"><span class="toc-number">3.</span> <span class="toc-text">2. 设计目标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-设计方案"><span class="toc-number">4.</span> <span class="toc-text">2. 设计方案</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-硬件焊接与调试"><span class="toc-number">5.</span> <span class="toc-text">4. 硬件焊接与调试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-软件调试"><span class="toc-number">6.</span> <span class="toc-text">5. 软件调试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-组装"><span class="toc-number">7.</span> <span class="toc-text">6. 组装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-总结"><span class="toc-number">8.</span> <span class="toc-text">7. 总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-参考资料"><span class="toc-number">9.</span> <span class="toc-text">8. 参考资料</span></a></li></ol>
+         </div>
+    <script type="text/javascript">
+    function showToc(){
+    var toc_article = document.getElementById("toc-article");
+    var show_toc_btn = document.getElementById("show-toc-btn");
+    toc_article.setAttribute("style","display:block");
+    show_toc_btn.setAttribute("style","display:none");
+    };
+    function showBtn(){
+    var toc_article = document.getElementById("toc-article");
+    var show_toc_btn = document.getElementById("show-toc-btn");
+    toc_article.setAttribute("style","display:none");
+    show_toc_btn.setAttribute("style","display:block");
+    };
+    </script>
+      
+    <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
         <p align="middle"><img src="https://debupt.github.io/assets/NixieClock/Divergence Meter.jpg" width="1000"></p>
@@ -553,14 +579,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">life</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">feel</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Tech</a>
               </li>
              
@@ -570,6 +588,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">DIY</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">life</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">feel</a>
               </li>
             
             <div class="clearfix"></div>
