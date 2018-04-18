@@ -175,84 +175,10 @@
       
         <p align="middle"><img src="https://debupt.github.io/assets/Office/Banner.png" width="950"></p>
 
-<h3 id="——-I-would-like-speak-a-few-words"><a href="#——-I-would-like-speak-a-few-words" class="headerlink" title="—— I would like speak a few words"></a><em><p align="right">—— I would like speak a few words</p></em></h3><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Office为巨硬推出的办公套件，其中Word用于文字处理，Excel用于数据表处理，PowerPoint用于文稿演示。本文将结合前段时间书写论文中Word排版问题，探讨可以如何<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## Word</span><br><span class="line"></span><br><span class="line">- 排版</span><br><span class="line"></span><br><span class="line">    - 封面</span><br><span class="line">    </span><br><span class="line">        解决方案：```无框表格 + 绘制直线</span><br></pre></td></tr></table></figure></p>
-<pre><code>    &lt;img src=&quot;https://debupt.github.io/assets/Office/Cover.png&quot; width=&quot;1000&quot;&gt;
-
-    &gt;- 绘制直线也可通过添加表格下边框实现，可调整表格内文字行距到较为舒服的位置
-
-    &gt;- <figure class="highlight plain"><figcaption><span>->  图片```可嵌入商标、校徽等图片信息</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">- 样式</span><br><span class="line"></span><br><span class="line">    样式指各种格式的集合，通常指正文、各级标题、图表标题、表内容和目录等的格式。设置样式可实现 ```格式与内容分离``` 处理。</span><br><span class="line"></span><br><span class="line">    设置过程为 ```样式 -&gt; 创建样式```，一般需要修改的参数为：```字体、字号、间距、行距、缩进和对齐方式```，通常为```正文，一、二、三级标题```各自设置样式。</span><br><span class="line"></span><br><span class="line">    在设置好各级样式后，即可设置各级列表，设置过程为 ```段落 -&gt; 定义新的多级列表</span><br></pre></td></tr></table></figure>
-
-    &lt;img src=&quot;https://debupt.github.io/assets/Office/Format.png&quot; width=&quot;1000&quot;&gt;
-
-    &gt;注意将 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&gt;一般一级标题多为 ```第 X 章```，在设置二三级标题时会出现```一.1```，直接删除前面的 ```一.``` 即可</span><br><span class="line"></span><br><span class="line">接下来设置多级目录起来，大致是这样：</span><br><span class="line"></span><br><span class="line">&lt;img src=&quot;https://debupt.github.io/assets/Office/Format.gif&quot; width=&quot;1000&quot;&gt;</span><br><span class="line"></span><br><span class="line">&gt;通过 ```Tab``` 键可在多级编号间跳转</span><br><span class="line"></span><br><span class="line">&gt;此时，即可利用 ```引用 -&gt; 目录 -&gt; 自动目录``` 对目录进行自动更新，通过 ```自定义目录 -&gt; 修改``` 即可设置目录格式</span><br><span class="line"></span><br><span class="line">&gt;截屏软件为 ```ScreenToGif</span><br></pre></td></tr></table></figure>
-
-- 页眉页脚
-
-    在对页眉页脚进行设置之前，需先插入 <figure class="highlight plain"><figcaption><span>，具体操作为 ```布局 -> 分隔符 -> 下一页```，分节符的插入按 ```章节``` 进行</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">插入页眉操作为：```插入 -&gt; 页眉</span><br></pre></td></tr></table></figure>
-
-    页眉与当前章标题相同设置为：<figure class="highlight plain"><figcaption><span>-> 文档部件 -> 域 -> StyleRef -> 标题一```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&gt;此处需注意，在每章开始时，需取消 ```连接到前一页页眉</span><br></pre></td></tr></table></figure>
-
-    &gt;对于需要奇偶页页眉不同的，可在页眉页脚 <figure class="highlight plain"><figcaption><span>页面，勾选 ```奇偶页不同```，分开设置即可</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&gt;可开启```显示/隐藏编辑标记```，其在 ```段落```最右侧，方便观察段落分隔</span><br><span class="line"></span><br><span class="line">&gt;页眉本质上是表格的横线，当某页不需要页眉时，可通过设置 ```无框线``` 隐藏页眉，此时注意取消上下页的 ```连接到前一页页眉</span><br></pre></td></tr></table></figure>
-
-    插入页脚操作为： <figure class="highlight plain"><figcaption><span>-> 页脚```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">        在设置页码时，选择 ```页面底端```，可通过设置页面格式进行 罗马数字 ```I,II,III``` 或 阿拉伯数字 ```1,2,3...``` 页码设置</span><br><span class="line"></span><br><span class="line">        &gt;此处对于每章，可在设置页面格式中选择 ```续前节``` 使页码连续</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    - 题注</span><br><span class="line"></span><br><span class="line">        使用题注，有两点好处</span><br><span class="line"></span><br><span class="line">        - 图表编号可自动顺延</span><br><span class="line">        - 中途增删某张图表，编号可自动更新。</span><br><span class="line">        </span><br><span class="line">        插入题注操作为：```引用 -&gt; 插入题注``` </span><br><span class="line"></span><br><span class="line">        &lt;img src=&quot;https://debupt.github.io/assets/Office/Note.png&quot; width=&quot;1000&quot;&gt;</span><br><span class="line"></span><br><span class="line">    - 交叉引用</span><br><span class="line"></span><br><span class="line">        此处交叉引用，主要针对于参考文献而言，当利用万方或IEEE导出大量参考文献后，需要在文中添加引用</span><br><span class="line"></span><br><span class="line">        &lt;img src=&quot;https://debupt.github.io/assets/Office/Refer.gif&quot; width=&quot;1000&quot;&gt;</span><br><span class="line"></span><br><span class="line">    - 公式插入</span><br><span class="line">        </span><br><span class="line">        虽然Word自带公式编辑软件，推荐使用```MathType```进行公式编辑操作。其提供的右编号功能，结合```章节分隔符```可实现公式的自动编号。</span><br><span class="line"></span><br><span class="line">        &lt;img src=&quot;https://debupt.github.io/assets/Office/Mathtype.png&quot; width=&quot;1000&quot;&gt;</span><br><span class="line"></span><br><span class="line">        &gt;当在文中插入公式时，可能出现公式与文字高低不同的情况，此时可打开 ```布局``` 右侧小三角， 在 ```文档网络 -&gt; 网络``` 中选择 ```无网络``` 即可</span><br><span class="line"></span><br><span class="line">- Tips</span><br><span class="line">    - 自动保存</span><br><span class="line"></span><br><span class="line">        在用Word进行文字处理时，突然的宕机可能使工作前功尽弃，其实，并不然。</span><br><span class="line"></span><br><span class="line">        Word自带自动保存功能，当电脑发生宕机后，可在 ```C:\Users\XXX\AppData\Roaming\Microsoft\Word\``` 中找到 ```asd```后缀文件，直接将其命名为 ```docx``` 或 ```doc```，即可用 Word 正常打开，其中 ```XXX``` 为用户名</span><br><span class="line"></span><br><span class="line">        &gt;用户可在 ```文件 -&gt; 选项 -&gt; 保存``` 中设置自动保存时间，保证文件的及时保存和更新。</span><br><span class="line"></span><br><span class="line">    - 格式刷  </span><br><span class="line"></span><br><span class="line">        格式刷，即可将当前文本刷成格式刷下的样式。当需要做大量重复格式统一操作时，可```双击```格式刷按钮，即可直接使用多次</span><br><span class="line"></span><br><span class="line">        &gt;此方式适用于所有Office软件</span><br><span class="line"></span><br><span class="line">    - 快捷键   </span><br><span class="line"></span><br><span class="line">        重复上次操作： ```F4</span><br></pre></td></tr></table></figure>
-
-    分页符：```Ctrl + Enter```  == ```n * Enter```
-</code></pre><h2 id="PowerPoint"><a href="#PowerPoint" class="headerlink" title="PowerPoint"></a>PowerPoint</h2><ul>
-<li><p>###Tips</p>
-<ul>
-<li><p>杂项</p>
-<blockquote>
-<p>当在一页PPT中有多幅图片、大量文字和动画时，对于单个目标的选中是困难的，可利用 <code>开始 -&gt; 选择 -&gt; 选择窗格</code>，对不同内容命名区分，同时可以隐藏当前不需要的素材。</p>
-</blockquote>
-<p>  <img src="https://debupt.github.io/assets/Office/Window.png" width="1000"></p>
-<blockquote>
-<p>当打开图片后，可在 <code>格式 -&gt; 大小 -&gt; 裁剪</code>中对图像大小进行处理，再按下<code>裁剪</code>后确定。在 <code>格式 -&gt; 颜色 -&gt; 设置透明色</code>可对图像进行透明处理</p>
-</blockquote>
-<p>  <img src="https://debupt.github.io/assets/Office/PPT1.png" width="1000"></p>
-<blockquote>
-<p>快捷键 <code>Ctrl + G</code> 可对多个图层进行组合</p>
-</blockquote>
-</li>
-<li><p>素材</p>
-<p>  在进行PPT制作时，素材是必不可少的，这里提供一些常用的素材ICON网站</p>
-<p>  Flaticon : <a href="https://www.flaticon.com/" target="_blank" rel="noopener">https://www.flaticon.com/</a></p>
-<p>  ICON8 : <a href="https://icons8.com/" target="_blank" rel="noopener">https://icons8.com/</a></p>
-<p>  ICOOON-MONO : <a href="http://icooon-mono.com/" target="_blank" rel="noopener">http://icooon-mono.com/</a></p>
-<p>  Illustrio : <a href="https://illustrio.com/" target="_blank" rel="noopener">https://illustrio.com/</a></p>
-<p>  Iconmonstr : <a href="https://iconmonstr.com/" target="_blank" rel="noopener">https://iconmonstr.com/</a></p>
-<p>  Pictogram2 : <a href="http://pictogram2.com/?lang=en" target="_blank" rel="noopener">http://pictogram2.com/?lang=en</a></p>
-<blockquote>
-<p>部分可能需要你能爬出墙  :(</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p>插件</p>
-<p>  插件即为一些可以大大提高工作效率的小应用，推荐以下两款</p>
-<ul>
-<li>####Nordri Tools</li>
-<li><p>####OKTools</p>
-<blockquote>
-<p>一键转图、矩式复制、尺寸递进、对齐工具栏、取色器等都是较为好用的工具</p>
-</blockquote>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h2><ul>
-<li><p>Tips</p>
-<ul>
-<li><p>数据处理、计算、绘图</p>
-<p>  可能你不会<code>Python</code>也不会<code>Matlab</code>，或者并没有装相应的开发环境，利用Excel也能完成数据的处理、计算和绘图工作。对于较为规矩的数据如<code>A分隔符B分隔符C</code>，可根据<code>数据 -&gt; 分列</code>，通过选择 <code>分割符号</code> 或 <code>固定宽度</code> 实现数据的提取，同时可利用如 <code>AVERAGE</code>，<code>VARA</code>，<code>STDEV</code>等基本函数计算数据统计特性，利用 <code>插入 -&gt; 图表</code> 绘制折线、柱形、散点图</p>
-<p>  <img src="https://debupt.github.io/assets/Office/Plot.png" width="1000"></p>
-<blockquote>
-<p>经测试，画类似折线图，Excel速度快于Matlab</p>
-</blockquote>
-</li>
-</ul>
-</li>
-</ul>
-
+<h3 id="——-I-would-like-speak-a-few-words"><a href="#——-I-would-like-speak-a-few-words" class="headerlink" title="—— I would like speak a few words"></a><em><p align="right">—— I would like speak a few words</p></em></h3>
+        
+          <a class="article-more-a" href="/2018/04/18/Office使用指北/#more">more >></a>
+        
       
 
       
@@ -577,19 +503,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Toy</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">DIY</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">life</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">feel</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Toy</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">DIY</a>
               </li>
             
             <div class="clearfix"></div>
